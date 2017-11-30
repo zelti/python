@@ -10,7 +10,7 @@ def main():
 	turtle.mainloop()
 
 def make_square(dave):
-	length = int(input('Indique tamano'))
+	length = int(input('Indique tamaño'))
 
 	for i in range(4):
 		make_line_and_turn(dave, length)
